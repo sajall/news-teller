@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #36384d;
+        font-family: sans-serif;
+      }
+      #main {
+        width: 25%;
+        height: 350px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 20px;
+        /* text-align: center; */
+       
+      }
+      #child{
+        /* width: 40%; */
+        /* height: 300px */
+       
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 25px;
+
+        gap: 20px;
+      
+        /* text-align: center; */
+        /* align-content: center; */
+
+      }
+      /* #child svg{
+        position: relative;  
+        top: 27px;
+        left: -123px;   
+       margin-bottom: 20px;
+      } */
+      #child h1{
+        /* position: relative;
+        top: 30px;
+        left: -52px; */
+        line-height: 10px;
+      }
+      #child #one{
+        /* position: relative;
+        top: 30px;
+        left: -70px; */
+      }
+      #child p{
+        text-align: left !important;
+        /* margin-top: 40px; */
+        /* margin-left: 20px; */
+
+        
+      }
+      #child button{
+        height: 45px;
+        /* margin-top: 30px; */
+        background-color: #232742;
+        color: white;
+        font-size: 16px;
+        width: 290px;
+        border: 1px solid #232742;
+        border-radius: 5px;
+        text-indent: 10px;
+        
+      }
+      #child button:hover{
+        cursor: pointer;
+        border: none; 
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,103,66,1) 0%, rgba(255,84,116,1) 99%);
+        
+      }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="child">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg>
+       <h1 id="one">Thanks for </h1> <h1>Subscribing! </h1> 
+       <p>a confirmation email has been sent to <br>
+     <b>ashcompany.com</b>  please open it and click 
+    the button inside to   confirm your <br> subscription.</p>
+    <button>Dismiss Message</button>
+</div>
+    </div>
+</body>
+</html>

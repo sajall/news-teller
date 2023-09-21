@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #36384d;
+        font-family: sans-serif;
+      }
+      #main {
+        width: 55%;
+        height: 500px;
+        background-color: aliceblue;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+      #left {
+      
+        margin-left: 30px;
+      }
+      #right img{
+        height: 465px;
+        margin-top: 17px;
+        margin-left: 5px;
+}
+      
+      .icon {
+        display: flex;
+       
+      }
+    
+     
+      #text{
+       
+        margin-top: 50px;
+      }
+      #text h1{
+       
+        font-size: 42px;
+      }
+      #text p{
+        margin-top: 20px;
+      }
+      #tick-items{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      #tick-items .icon{
+        /* margin-top: 10px; */
+        display: flex;
+        gap: 10px;
+      }
+      /* .icon p {
+      
+      margin-left: 10px;
+     } */
+      
+      #form{
+        margin-top: 40px;
+      }
+    #form label{
+        font-weight: bold;
+        font-size: 13px;
+    }
+      #form input{
+        height: 45px;
+        width: 316px;
+        margin-top: 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        text-indent: 10px;
+        cursor: pointer;
+      }
+      #form button{
+        height: 45px;
+        margin-top: 10px;
+        background-color: #232742;
+        color: white;
+        font-size: 16px;
+        width: 316px;
+        border: 1px solid #232742;
+        border-radius: 10px;
+        text-indent: 10px;
+      }
+      #form button:hover{
+        cursor: pointer;
+        border: none; 
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,103,66,1) 0%, rgba(255,84,116,1) 99%);
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="left">
+        <div id="text">
+          <h1>STAY UPDATED!</h1>
+          <p>
+            join 60,000+ product managers recieving monthly <br />
+            updates on:
+          </p>
+        </div>
+        <div id="tick-items">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20"    height="20"  viewBox="0 0 64 64" ><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">  <stop offset="0%" stop-color="#FF6A3A" />  <stop offset="100%" stop-color="#FF527B" /></linearGradient>  </defs>  <g fill="none"> <circle cx="32" cy="32" r="32" fill="url(#a)" />  <path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285" /></g> </svg>
+
+          <p>product discovery and building what matters</p>
+
+        </div>
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20"    height="20"  viewBox="0 0 64 64" ><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">  <stop offset="0%" stop-color="#FF6A3A" />  <stop offset="100%" stop-color="#FF527B" /></linearGradient>  </defs>  <g fill="none"> <circle cx="32" cy="32" r="32" fill="url(#a)" />  <path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285" /></g> </svg>
+  
+            <p>mesuring to ensure updates are a success</p>
+          </div>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20"    height="20"  viewBox="0 0 64 64" ><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">  <stop offset="0%" stop-color="#FF6A3A" />  <stop offset="100%" stop-color="#FF527B" /></linearGradient>  </defs>  <g fill="none"> <circle cx="32" cy="32" r="32" fill="url(#a)" />  <path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285" /></g> </svg>
+  
+            <p>And Much More!</p>
+        </div>
+        </div>
+        <div id="form">
+              <form action="">
+                <label for=""> Email Address </label> <br>
+                <input type="email" placeholder="email@company.com"> <br>
+                <button type="submit">Subscribe to monthly newsteller</button>
+              </form>
+        </div>
+      </div>
+      <div id="right">
+        <img src="./images/illustration-sign-up-desktop.svg" alt="">
+      </div>
+    </div>
+  </body>
+</html>
